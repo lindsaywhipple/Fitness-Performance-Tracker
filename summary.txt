@@ -1,0 +1,9 @@
+Fitness Tracker - Final Project Summary
+----------------------------------------
+For my final project, I created a Python-based workout tracker that allows users to log, view, and analyze their workout activities, specifically lifting. This program enables users to enter their workout data including type of exercise, length of activity, calories burned, level of intensity and more. 
+
+Users of this program have the ability to add new workouts, view a list of previously added workouts, and save/upload all information to a CSV file. The program is able to calculate and display summary statistics about the workouts including total time spent in workouts, average intensity, and most frequent exercise. I use a custom Workout class with private attributes and support comparisons between workouts using magic methods like __lt__ and __eq__. 
+
+This project incorporates several of the core Python concepts including the use of classes, inheritance, and encapsulation. It uses file input and output to manage CSV files, various data structures including lists, dictionaries, tuples, and sets. I have also included unit tests to verify class functionality ensuring that the methods perform as expected. 
+
+I have been lifting since middle school and was also told to record my workouts, but there was never any sufficient way of doing this. Typically we would store our workouts on a white board or on the notes app therefore there was no good way to maintain and analyze the data, defeating the purpose of recording workouts. This fitness tracker is a useful tool for anyone like me who is interested in tracking their physical activity and progress over time. 
