@@ -3,10 +3,10 @@ from datetime import datetime
 class Workout:
     def __init__(self, workout_type, date, duration, intensity, calories, sets, reps, weight):
         self._date = datetime.strptime(date, "%m-%d-%Y")   
-        self.workout_type = workout_type    # Name of workout ex. Squats, Dealift
+        self.workout_type = workout_type    # Name of workout ex. squats, deadlift
         self.duration = duration    # time in minutes
         self.intensity = intensity  # 1-10
-        self.calories = calories    # Calories Burned
+        self.calories = calories    # calories burned
         self.sets = sets
         self.reps = reps
         self.weight = weight    # lbs
